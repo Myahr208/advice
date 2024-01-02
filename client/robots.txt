@@ -1,0 +1,67 @@
+# Don't try to knock us down because we're going to fall!
+#
+#              _____
+#             |     |
+#             | | | |
+#             |_____|
+#       ____ ___|_|___ ____
+#      ()___)         ()___)
+#      // /|           |\ \\
+#     // / |           | \ \\
+#    (___) |___________| (___)
+#    (___)   (_______)   (___)
+#    (___)     (___)     (___)
+#    (___)      |_|      (___)
+#    (___)  ___/___\___   | |
+#     | |  |           |  | |
+#     | |  |___________| /___\ 
+#    /___\  |||     ||| //   \\
+#   //   \\ |||     ||| \\   //
+#   \\   // |||     |||  \\ //
+#    \\ // ()__)   (__()
+#          ///       \\\ 
+#         ///         \\\ 
+#       _///___     ___\\\_
+#      |_______|   |_______|
+#
+
+User-agent: *
+Disallow: /pages/*
+
+User-agent: Googlebot
+Disallow: /pages/*
+
+User-agent: Twitterbot
+Disallow: /pages/*
+
+User-agent: YandexBot
+Disallow: /pages/*
+
+User-agent: bingbot
+Disallow: /pages/*
+
+User-agent: facebookexternalhit
+Disallow: /pages/*
+
+User-Agent: Slurp
+Disallow: /pages/*
+
+User-Agent: DuckDuckBot
+Disallow: /pages/*
+
+User-agent: baidu
+Disallow: /pages/*
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /pages/*
+
+User-agent: TelegramBot
+Disallow: /pages/*
+
+User-agent: Discordbot
+Disallow: /pages/*
+
+User-agent: Applebot
+Disallow: /pages/*
+
+# In case of any problems, please contact us via email: sebastianjnuwu@gmail.com
