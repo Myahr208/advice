@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,27 +22,36 @@
   <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon" />
   <link rel="canonical" href="https://advicedaylife.vercel.app">
   <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/modules/materialize.min.css" />
+  <script src="src/modules/js.cookie.min.js"></script>
   <script src="src/modules/jquery.min.js"></script>
-  <script src="src/js/main.min.js"></script>
+  <script src="src/modules/materialize.min.js"></script>
+  <script src="src/modules/translate.min.js"></script>
+  <script src="src/modules/i18next.min.js"></script>
+  <script src="src/js/language.js"></script>
+  <script src="src/js/i18next.js"></script>
 </head>
 <body>
- <main class="container">
+ <main class="container-advice">
   <section class="card">
-   <h1 class="title">
-     ADVICE #<span id="number">001</span>
-   </h1>
-    <p id="display" class="advice">Click the button below to receive advice
-    </p>
-    <img class="img-divider" src="./src/img/svg/divider-desktop.svg" alt="Just a division between the worlds">
-     <button id="advice" class="btn-advice">
-      <img src="./src/img/svg/dice.svg" alt="A simple fact that behind hides I'm a big secret">
-     </button>
-   </section>
+    <h1 class="title"></h1>
+    <p class="advice">?</p>
+   <img class="divider-2" src="src/img/svg/divider.svg" />
+    <button id="advice" class="btn-advice">
+      <img src="src/img/svg/dice.svg" />
+    </button>
+  </section>
   <footer class="footer">
-   <a class="network" href="https://github.com/sebastianjnuwu/advice" target="_blank"><i class="fa-brands fa-github"></i></a>
-   <a class="network" href="https://github.com/sponsors/sebastianjnuwu" target="_blank"><i class="fas fa-donate"></i></a>
-   <a class="network" href="https://www.instagram.com/sebastianjnuwu" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a class="network" href="https://github.com/sebastianjnuwu/advice" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a class="network" href="https://github.com/sponsors/sebastianjnuwu" target="_blank"><i class="fas fa-donate"></i></a>
+    <a class="network" href="https://www.instagram.com/sebastianjnuwu" target="_blank"><i class="fa-brands fa-instagram"></i></a>
   </footer>
  </main>
+ <div class="fixed-action-btn">
+   <button class="btn-floating btn-large">
+     <i class="fas fa-notification"/></i>
+   </button>
+ </div>
 </body>
+ <script defer src="src/js/main.min.js" async></script>
 </html>

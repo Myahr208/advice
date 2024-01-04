@@ -6,7 +6,7 @@
  <img alt="profile" src="https://cdn.discordapp.com/attachments/1128027443245105184/1191771986750345216/asa.png" width="60%" />
   <br>
   <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-green.svg"/>
-   <img alt="Version" src="https://img.shields.io/badge/Latest%20version-v1.0.2-green"/>
+   <img alt="Version" src="https://img.shields.io/badge/Latest%20version-v1.0.3-green"/>
 
  _"Fly high with the wisdom of Wings of Tomorrow"_
   
