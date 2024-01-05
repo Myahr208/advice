@@ -11,7 +11,12 @@ const language = {
  },
   en: {
    translation: {
-     "title": "Advice - Wings of Tomorrow"
+    "language": "en-US",
+    "title": "Advice - Wings of Tomorrow",
+    "advice": {
+      "title": "ADVICE #{{ number }}",
+      "description": "{{ data }}"
+    }
   }
  }
 };
